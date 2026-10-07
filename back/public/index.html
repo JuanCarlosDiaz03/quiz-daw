@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #e8f1ff, #f8fbff);
+            min-height: 100vh;
+        }
+
+        .tarjeta {
+            background: white;
+            border: 1px solid #e1eaff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(40, 90, 160, 0.10);
+        }
+
+        .btn-primary {
+            background-color: #3478e5;
+            border-color: #3478e5;
+        }
+
+        .btn-primary:hover {
+            background-color: #245fc0;
+            border-color: #245fc0;
+        }
+
+        .titulo {
+            color: #173665;
+            font-weight: 700;
+        }
+
+        .flecha {
+            width: 52px;
+            height: 52px;
+            font-size: 1.5rem;
+            box-shadow: 0 5px 12px rgba(40, 90, 160, 0.20);
+        }
+
+        #idNomUsuari {
+            z-index: 1030;
+        }
+
+        #temporizador {
+            z-index: 1030;
+        }
+
+        #idPanelAdmin {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1030;
+        }
+
+        #idPanelAdmin a {
+            text-decoration: none;
+        }
+
+        .enlace-admin {
+            background: white;
+            border: 1px solid #dbe7fb;
+            border-radius: 12px;
+            padding: 12px 16px;
+            color: #245fc0;
+            box-shadow: 0 4px 15px rgba(40, 90, 160, 0.12);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .enlace-admin:hover {
+            background: #edf4ff;
+        }
+
+        @media (max-width: 768px) {
+            .zona-partida {
+                gap: 8px !important;
+                padding: 15px;
+            }
+
+            #partida {
+                width: 100% !important;
+                min-width: 0;
+            }
+
+            .flecha {
+                width: 38px;
+                height: 38px;
+                font-size: 1.1rem;
+            }
+
+            #idPanelAdmin {
+                bottom: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="d-flex justify-content-center align-items-center vh-100 p-3" id="nomUsuari">
+        <div class="tarjeta p-4 p-md-5 w-100" style="max-width: 420px;">
+            <div class="text-center mb-4">
+                <div class="fs-1 mb-2">🧠</div>
+                <h1 class="titulo h3">Benvingut al Quiz!</h1>
+                <p class="text-secondary mb-0">Introdueix el teu nom per començar a jugar</p>
+            </div>
+
+            <form id="formNombre">
+                <label class="form-label fw-semibold" for="inputNombre">Nom d'usuari</label>
+                <input class="form-control form-control-lg mb-3" type="text" id="inputNombre" placeholder="Ex.: John Doe" required>
+
+                <button type="button" id="envioNombre" class="btn btn-primary btn-lg w-100 rounded-pill">
+                    Guardar i començar
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <nav>
+        <div id="idNomUsuari" class="position-fixed top-0 start-0 m-3"></div>
+        <div id="temporizador" class="d-none position-fixed top-0 end-0 m-3 bg-white border border-primary rounded-3 shadow px-4 py-2 fs-3 fw-bold text-primary text-center"></div>
+    </nav>
+
+    <main>
+        <div class="d-none container-fluid py-5" id="juegoCompleto">
+            <div id="marcador" class="mx-auto mb-3" style="max-width: 900px;"></div>
+
+            <div class="d-flex justify-content-center align-items-center vh-100 gap-3 zona-partida">
+                <div id="izquierda">
+                    <button type="button" class="btn btn-primary rounded-circle flecha d-flex align-items-center justify-content-center" aria-label="Pregunta anterior">←</button>
+                </div>
+
+                <div id="partida" class="w-50 d-flex align-items-center"></div>
+
+                <div id="derecha">
+                    <button type="button" class="btn btn-primary rounded-circle flecha d-flex align-items-center justify-content-center" aria-label="Pregunta siguiente">→</button>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-success d-none px-4 py-2 rounded-pill" id="envioFinal">Enviar resultat</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pantallaResultados" class="d-none container py-5">
+            <div class="tarjeta p-4 p-md-5 mx-auto text-center" style="max-width: 700px;">
+                <div class="fs-1 mb-3">🏆</div>
+                <h2 class="titulo mb-4">Resultats de la partida</h2>
+                <div id="resumenPuntacion" class="alert alert-primary fs-4 fw-bold mb-4"></div>
+                <button id="btnReiniciar" class="btn btn-primary btn-lg rounded-pill px-4">Tornar a jugar</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="idPanelAdmin">
+        <a href="/admin.html" class="enlace-admin d-inline-block">
+            ⚙️ Panell d'administració ↗
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="funcions.js"></script>
+
+</body>
+</html>

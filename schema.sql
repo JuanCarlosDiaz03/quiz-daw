@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS preguntes (
+  id INT NOT NULL AUTO_INCREMENT,
+  pregunta VARCHAR(255) DEFAULT NULL,
+  imatge VARCHAR(255) DEFAULT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS respostes (
+  id INT NOT NULL,
+  pregunta_id INT NOT NULL,
+  resposta VARCHAR(255) DEFAULT NULL,
+  correcta TINYINT(1) DEFAULT NULL,
+  PRIMARY KEY (pregunta_id, id),
+  CONSTRAINT respostes_ibfk_1 FOREIGN KEY (pregunta_id) REFERENCES preguntes (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

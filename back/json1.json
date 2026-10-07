@@ -1,0 +1,814 @@
+{
+  "preguntes": [
+    {
+      "id": 1,
+      "pregunta": "Quina marca utilitza el logotip d'una poma mossegada?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Apple",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Samsung",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Microsoft",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Pepsi",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/apple"
+    },
+    {
+      "id": 14,
+      "pregunta": "Quina marca de moda utilitza dues C entrellaçades com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Chanel",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Gucci",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Versace",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Lacoste",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/chanel"
+    },
+    {
+      "id": 6,
+      "pregunta": "Quina marca tecnològica utilitza una finestra com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Apple",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Microsoft",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Samsung",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Google",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/microsoft"
+    },
+    {
+      "id": 13,
+      "pregunta": "Quina marca de refrescos és coneguda pel seu logotip circular blau i vermell?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Pepsi",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Coca-Cola",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Red Bull",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Fanta",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/pepsi"
+    },
+    {
+      "id": 30,
+      "pregunta": "Quina marca de menjar ràpid utilitza una gran M groga?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "McDonald's",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Burger King",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "KFC",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Subway",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/mcdonalds"
+    },
+    {
+      "id": 16,
+      "pregunta": "Quina marca és coneguda per les seves sabatilles amb una estrella?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Nike",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Converse",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Adidas",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Puma",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/converse"
+    },
+    {
+      "id": 28,
+      "pregunta": "Quina marca japonesa utilitza tres diamants com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Mitsubishi",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Subaru",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Toyota",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Honda",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/mitsubishi"
+    },
+    {
+      "id": 26,
+      "pregunta": "Quina marca francesa de cotxes utilitza un lleó com a símbol?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Peugeot",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Renault",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Citroën",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "BMW",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/peugeot"
+    },
+    {
+      "id": 20,
+      "pregunta": "Quina marca de moda utilitza el cap de Medusa com a símbol?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Versace",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Gucci",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Chanel",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Lacoste",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/versace"
+    },
+    {
+      "id": 24,
+      "pregunta": "Quina marca de cotxes utilitza un cercle amb les lletres BMW?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "BMW",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Audi",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Mercedes-Benz",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Renault",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/bmw"
+    },
+    {
+      "id": 21,
+      "pregunta": "Quina marca utilitza un jugador de polo com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Polo Ralph Lauren",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Tommy Hilfiger",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Lacoste",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Levi's",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/ralphlauren"
+    },
+    {
+      "id": 4,
+      "pregunta": "Quina marca de refrescos utilitza un logotip vermell amb lletres blanques?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Pepsi",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Coca-Cola",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Red Bull",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "McDonald's",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/coca-cola"
+    },
+    {
+      "id": 23,
+      "pregunta": "Quina marca és coneguda pels seus pantalons texans amb una etiqueta vermella?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Levi's",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Gucci",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Puma",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Converse",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/levis"
+    },
+    {
+      "id": 18,
+      "pregunta": "Quina marca de cotxes utilitza una estrella de tres puntes?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Mercedes-Benz",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "BMW",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Audi",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Ferrari",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/mercedes"
+    },
+    {
+      "id": 12,
+      "pregunta": "Quina marca de cotxes és coneguda pel seu toro com a símbol?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Ferrari",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Lamborghini",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Audi",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Renault",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/lamborghini"
+    },
+    {
+      "id": 8,
+      "pregunta": "Quina marca de cotxes utilitza un cavall rampant com a símbol?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Ferrari",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Lamborghini",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Porsche",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "BMW",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/ferrari"
+    },
+    {
+      "id": 5,
+      "pregunta": "Quina marca té un logotip amb tres franges paral·leles?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Nike",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Adidas",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Puma",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Lacoste",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/adidas"
+    },
+    {
+      "id": 3,
+      "pregunta": "Quina marca utilitza quatre anelles com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "BMW",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Audi",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Mercedes-Benz",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Peugeot",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/audi"
+    },
+    {
+      "id": 10,
+      "pregunta": "Quina marca de moda és coneguda pel logotip d'un cocodril?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Gucci",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Lacoste",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Chanel",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Versace",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/lacoste"
+    },
+    {
+      "id": 29,
+      "pregunta": "Quina marca japonesa utilitza un grup d'estrelles com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Subaru",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Mitsubishi",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Toyota",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Nissan",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/subaru"
+    },
+    {
+      "id": 25,
+      "pregunta": "Quina marca tecnològica és coneguda pel seu logotip ovalat amb la paraula Samsung?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Samsung",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Sony",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Apple",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Microsoft",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/samsung"
+    },
+    {
+      "id": 15,
+      "pregunta": "Quina marca de moda és coneguda pel seu logotip amb dues G?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Gucci",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Chanel",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Prada",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Versace",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/gucci"
+    },
+    {
+      "id": 22,
+      "pregunta": "Quina marca utilitza una bandera amb els colors vermell, blanc i blau?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Tommy Hilfiger",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Levi's",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Polo Ralph Lauren",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Nike",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/tommyhilfiger"
+    },
+    {
+      "id": 17,
+      "pregunta": "Quina marca d'energia utilitza dos toros vermells com a símbol?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Red Bull",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Pepsi",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Coca-Cola",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Monster",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/redbull"
+    },
+    {
+      "id": 2,
+      "pregunta": "Quina marca és coneguda pel seu logotip amb un swoosh?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Nike",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Adidas",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Puma",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Converse",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/nike"
+    },
+    {
+      "id": 7,
+      "pregunta": "Quina marca utilitza un cercle amb una estrella de tres puntes?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Audi",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "BMW",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Mercedes-Benz",
+          "correcta": true
+        },
+        {
+          "id": 4,
+          "resposta": "Ferrari",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/mercedes"
+    },
+    {
+      "id": 9,
+      "pregunta": "Quina marca té un logotip amb un felí saltant?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Puma",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Nike",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Lacoste",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Adidas",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/puma"
+    },
+    {
+      "id": 19,
+      "pregunta": "Quina empresa tecnològica té una finestra de quatre colors com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Microsoft",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Apple",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Samsung",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Sony",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/microsoft"
+    },
+    {
+      "id": 27,
+      "pregunta": "Quina marca francesa de cotxes utilitza un símbol amb forma de diamant?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Renault",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Peugeot",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Audi",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Mitsubishi",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/renault"
+    },
+    {
+      "id": 11,
+      "pregunta": "Quina marca utilitza una poma mossegada com a logotip?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Apple",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Microsoft",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Samsung",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Nike",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.simpleicons.org/apple"
+    }
+  ]
+}

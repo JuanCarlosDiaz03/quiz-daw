@@ -1,0 +1,30 @@
+services:
+  mysql-quiz:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-1234}
+      MYSQL_DATABASE: quiz
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+  back:
+    build: ./back
+    ports:
+      - "30001:30001"
+    environment:
+      DB_HOST: mysql-quiz
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-1234}
+      DB_NAME: quiz
+    depends_on:
+      - mysql-quiz
+    restart: on-failure
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql-data:

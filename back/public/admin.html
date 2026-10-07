@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panell d'administració</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-primary-subtle">
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">Quiz</a>
+            <a href="/" class="btn btn-outline-light btn-sm">Tornar al quiz</a>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="bg-white rounded shadow-sm border p-4">
+
+            <h1 class="h3 text-primary mb-2">Panell d'administració CRUD</h1>
+            <p class="text-secondary mb-4">
+                Gestiona les preguntes del quiz.
+            </p>
+
+            <hr>
+
+            <div class="row g-3">
+
+                <div class="col-12 col-md-6">
+                    <div class="border rounded p-3">
+                        <h2 class="h5">Crear pregunta</h2>
+                        <p class="text-secondary">Afegir una pregunta nova.</p>
+                        <a href="/crearPregunta.html" class="btn btn-success">
+                            Crear
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="border rounded p-3">
+                        <h2 class="h5">Obtenir preguntes</h2>
+                        <p class="text-secondary">Veure les preguntes existents.</p>
+                        <a href="/consultarPregunta.html" class="btn btn-primary">
+                            Consultar
+                        </a>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </main>
+
+    <script src="admin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
